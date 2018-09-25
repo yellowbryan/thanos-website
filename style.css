@@ -1,0 +1,262 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+body{
+background-color:#white;
+margin:0px;
+padding:0px;
+
+}
+
+#thanos{
+    width:100%;
+	height:700px;
+	background:url("img/bg3.png") no-repeat;
+	background-size:100%;
+	background-color:white;
+	overflow:hidden;
+}
+
+#links {
+	
+	margin-top:20px;
+	margin-left:30px;
+	float:left;
+	
+}
+
+
+#links img{
+	height:50px;
+
+	
+}
+
+
+
+#links img:hover{
+	border:2px solid white;
+	background-color:#673AB7;
+
+}
+
+	
+/* forms */
+
+
+#sign-up{
+	padding:10px;
+}
+
+.thanos-form{
+	position:absolute;
+	top:140px;
+	right:850px;
+	height:300px;
+	width:450px;
+		margin-top:12px;
+	   box-sizing: border-box;
+      	 border-radius:20px 20px 20px 20px;
+		 background:rgba(0,0,0,0.4);
+		 border:solid #7C4DFF 1.1 px;
+		 	
+}
+
+.thanos-form h3{
+    padding-top:20px;
+	padding-left:10px;
+	font-weight:200;
+	color:#CDDC39;
+	font-size:1.2em;
+	font-family:calibri;
+	font-style:calibri;
+	text-transform:Uppercase;
+	
+	
+}
+
+
+
+
+.thanos-form input{
+	width:250px;
+		margin-top:25px;
+		margin-left:27px;
+		padding-left:15px;
+		font-family:calibri;
+		padding:5px;
+		
+		border: 2px solid #816648;
+	
+		
+}
+		
+
+#submit{
+	width:70px;
+	padding:auto;
+	color:#ab8f60;
+	font-family:bold;
+	font-weight:300;
+	font-size:15px;
+	text-align:center;
+	position:relative;
+	left:90px;
+	border-radius:10px;
+	background:rgba(84,54,54,0.8);
+	background:white;
+	box-shadow:500px;
+}
+
+
+#submit:hover{
+	color:tomato;
+	background:#201712;
+	font-style:helvetica;
+
+	}
+
+		
+#sign-up:hover .thanos-form{
+display:block;
+transition:ease-in-out 1000ms;
+}	
+		
+
+		
+		
+		
+		
+#galaxy{
+	border-top:solid #D1C4E9 1px;
+	margin-top:0px;
+	width:100%;
+	height:300px;
+	overflow:auto;
+background:url(img/throne.jpg) no-repeat;
+	background-size:100%;
+	filter:opacity(90%);
+}	
+		
+		
+/* infinity stone description */
+
+
+
+#gems{
+	border-top:ridge black 1px;
+ width:100%;
+background:url(img/bg1.jpg) no-repeat;
+background-size:100%;
+padding:20px 52px;
+ height:645px;
+overflow:hidden;
+
+}	
+
+section h2,aside h2{
+
+	padding:1px;
+
+}
+	
+	section img{
+		padding-top:5px;
+	}	
+
+
+section,aside{
+	float:left;
+	width:25%;
+	margin:20px;
+    background:rgba(0,0,0,0.4);
+	padding:10px;
+    font-family:helvetica;
+    font-style:bold;
+	overflow:hidden;
+	text-align:center;
+
+	 color:rgba(255,247,247,0.5);
+}
+	section:hover{
+background:#263238;
+color:	#F50057;
+	}	
+	
+
+	
+#spacesec:hover{
+	background:#064c5a;
+color:	#F50057;
+}
+	
+#mindsec:hover{
+background:#986e13;
+color:black;
+}	
+
+#realitysec:hover{
+	background:#892e39;
+color:	#F50057;
+}
+	
+#timesec:hover{
+background:#1e5e28;
+color:black;
+}	
+	
+#powersec:hover{
+	background:#2b1043;
+color:	#F50057;
+}
+	
+#soulsec:hover{
+background:#a1451b;
+color:black;
+}	
+
+		
+		
+
+
+
+		
+		
+		
+	/*footer wetchhhh */
+
+#footer {
+	background:black;
+	padding:1px;
+position:fixed;
+bottom:0px;
+left:0px;
+width:100%;
+z-index: 1;
+	
+
+
+	
+
+}
+
+#footer ul{
+	text-align:center;
+	
+	word-spacing:300px;
+	
+}
+
+#footer ul li{
+	display:inline-block;
+	color:white;
+	font-size:20px;
+
+}
+
+onclick{
+	background-color:red;
+}
